@@ -10,7 +10,12 @@ export class ModelS {
 
     privicy_verification() {
   
-
+        cy.scrollTo('bottomLeft')
+        cy.get('[class="tds-link tcl-link"]').each(($el, index) => {
+            var word = $el.text()
+            expect(word).to.contain(data.ModelS[index])
+            
+        })
 
 
     }
