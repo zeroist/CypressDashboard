@@ -1,6 +1,6 @@
 {
   "baseUrl": "https://wikipedia.org",
-  "defaultCommandTimeout": 6000,
+  "defaultCommandTimeout": 10000,
   "pageLoadTimeout": 8000,
   "viewportHeight": 1028,
   "viewportWidth": 1920,
