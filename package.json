@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run -b chrome --headless --spec 'cypress/integration/1-getting-started/todo.spec.js'",
-    "smokeTesting": "cypress run --record --key 5cf4f7d9-82fb-4131-ac9f-475ba759410d --spec 'cypress/integration/Day2/File_Uploads.spec.js'"
+    "smokeTesting": "npx cypress run --record --key d437e58f-8ad0-44fe-94e6-6795340abdcf --spec 'cypress/integration/Day3/tesla2.spec.js'"
   },
   "author": "Altay",
   "license": "ISC",
