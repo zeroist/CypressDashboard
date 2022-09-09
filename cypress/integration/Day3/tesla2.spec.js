@@ -14,6 +14,7 @@ define('tesla2 feature',()=>{
 
         onModelSPage.urlVerification()
         onModelSPage.privicy_verification()
+        onModelSPage.modelScomparePage()
 
 
     })
